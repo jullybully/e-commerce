@@ -1,31 +1,94 @@
 .carousel {
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    position: relative;
   }
   
-  .inner {
-    white-space: nowrap;
-    transition: transform 0.3s;
+  .carousel-left,
+  .carousel-right {
+    width: 50vw;
+    height: 50vw;
   }
   
-  .carousel-item {
-    display: inline-flex;
+  .carousel-left {
+    display: flex;
+    align-items: center;
+    height: 50%;
+  }
+  
+  img {
+    width: 50vw;
+    height: 50vw;
+    object-fit: cover;
+  }
+  
+  .carousel-right {
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    color: black;
+    font-size: 2rem !important;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .carousel-text {
+    max-width: 400px;
   }
   
-  .indicators {
+  .prev-button,
+  .next-button {
+    position: absolute;
+    bottom: 0px;
     display: flex;
+    align-items: center;
     justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
   }
   
-  .indicators > button {
-    margin: 5px;
+  .prev-button {
+    left: 20px;
   }
   
-  .indicators > button.active {
-    background-color: green;
-    color: #fff;
+  .next-button {
+    right: 20px;
   }
   
+  .circle {
+    width: 3px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: black;
+  }
+  
+  @media (max-width: 767px) {
+    img {
+        width: 100vw;
+        height: 100vw;
+    }
+
+    .carousel-left,
+    .carousel-right {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .carousel-text {
+      float: none;
+      text-align: center;
+    }
+  
+    .prev-button,
+    .next-button {
+      position: relative;
+      float: right;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
