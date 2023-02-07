@@ -78,3 +78,37 @@ body {
   color: #fff;
   font-size: 100px;
 }
+
+.max-width {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+}
+
+.grid-product__image {
+  width: 100%;
+  height: 100%;
+}
+
+.item-2 {
+  float: left;
+}
+p, h4  {
+  margin-top: 10px;
+  max-width: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem; 
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+

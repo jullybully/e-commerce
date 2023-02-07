@@ -3,6 +3,7 @@ import "../../App.css";
 import Carousel from "../Carousel";
 import Products from "./Products";
 import { HomeContent } from "../HomeContent";
+import TopProducts from "../TopProducts";
 
 const slides = [
   {
@@ -23,7 +24,7 @@ export default function Home() {
   return (
     <>
       <Carousel slides={slides} />
-      <Products />
+      <TopProducts />
       <HomeContent />
     </>
   );
