@@ -30,9 +30,6 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          HOME
-        </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
@@ -72,15 +69,6 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               Contact Us
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/sign-up"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
-              Sign Up
             </Link>
           </li>
         </ul>

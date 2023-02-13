@@ -21,7 +21,6 @@ function App() {
         <Route path='/products' element={ <Products/> } />
         <Route path='/products/:productId' element={<ProductDetail /> } />
         <Route path='/contact-us' element={ <ContactUs/> } />
-        <Route path='/sign-up' element={ <SignUp/> } />
         <Route path='/tables' element={ <Tables/> } />
         <Route path='/Seating' element={ <Seating/> } />
       </Routes>

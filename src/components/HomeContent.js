@@ -19,7 +19,7 @@ export function HomeContent() {
             </p>
           </div>
           <div className="text-ver__hor">
-            <button className="button-black">Tables</button>
+          <a className="button-black" href="/tables">Tables</a>
           </div>
         </div>
         <div class="col2">
@@ -49,7 +49,7 @@ export function HomeContent() {
             </p>
           </div>
           <div className="text-ver__hor">
-            <button className="button-black">Tables</button>
+          <a className="button-black" href="/tables">Tables</a>
           </div>
         </div>
       </div>

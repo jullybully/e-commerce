@@ -86,6 +86,12 @@
     justify-content: center;
     position: relative;
     max-width: 20em;
+    
+  }
+
+  .button-black a {
+    text-decoration: underline;
+    text-align: center;
   }
   
   .carousel-text {

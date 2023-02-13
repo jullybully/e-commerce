@@ -34,6 +34,9 @@
   padding: 10px 0;
   width: 305px;
   margin-bottom: 2rem;
+  text-decoration: underline;
+  text-align: center;
+  display: inline-block;
 }
 
 .button-black:hover {

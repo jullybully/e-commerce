@@ -26,7 +26,7 @@
     {
       id: "4",
       name: "CALLISTO MIX By Porada lacquered table",
-      type: "Coffee table",
+      type: "Table",
       description: "Callisto Mix is a coffee table with Bronzoro matt lacquered closed pore wooden base and three marble tops of different sizes. It is possible to have the tops in different finishes or in a single one.",
       image: "https://img.edilportale.com/product-thumbs/b_CALLISTO-MIX-Porada-620008-rel69605268.jpg",
       price: 35
